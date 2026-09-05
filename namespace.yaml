@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: oauth2-proxy
+  labels:
+    app.kubernetes.io/name: OAuth2-proxy
+    app.kubernetes.io/part-of: OAuth2-proxy
+    app.kubernetes.io/managed-by: manual
+    istio-injection: enabled
